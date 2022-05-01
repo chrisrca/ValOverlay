@@ -1,0 +1,25 @@
+{
+  "name": "Valoverlay",
+  "version": "0.0.3",
+  "description": "A minimal Electron example of transparency",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "startWithTransparentOption": "electron --enable-transparent-visuals .",
+    "startWithAllOptions": "electron --enable-transparent-visuals --disable-gpu ."
+  },
+  "keywords": [
+    "Electron",
+    "transparent",
+    "tutorial",
+    "transparency"
+  ],
+  "author": "Doom",
+  "license": "GPLv3",
+  "devDependencies": {
+    "electron": "^18.2.0"
+  },
+  "dependencies": {
+    "node-valorant-api": "^0.5.0"
+  }
+}
