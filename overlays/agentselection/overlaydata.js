@@ -1,8 +1,8 @@
-setElements(1, randomInt(0, 22), randomMatches())
-setElements(2, randomInt(0, 22), randomMatches())
-setElements(3, randomInt(0, 22), randomMatches())
-setElements(4, randomInt(0, 22), randomMatches())
-setElements(5, randomInt(0, 22), randomMatches())
+setElements(1, randomInt(0, 22), randomMatches(), randomInt(0, 200), randomInt(0, 999), randomInt(0, 200), randomInt(0, 300))
+setElements(2, randomInt(0, 22), randomMatches(), randomInt(0, 200), randomInt(0, 999), randomInt(0, 200), randomInt(0, 300))
+setElements(3, randomInt(0, 22), randomMatches(), randomInt(0, 200), randomInt(0, 999), randomInt(0, 200), randomInt(0, 300))
+setElements(4, randomInt(0, 22), randomMatches(), randomInt(0, 200), randomInt(0, 999), randomInt(0, 200), randomInt(0, 300))
+setElements(5, randomInt(0, 22), randomMatches(), randomInt(0, 200), randomInt(0, 999), randomInt(0, 200), randomInt(0, 300))
 
 function randomMatches() {
     recentMatches = [randomInt(0, 1), randomInt(0, 1), randomInt(0, 1), randomInt(0, 1), randomInt(0, 1)]
@@ -13,7 +13,7 @@ function randomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
-function setElements(player, rank, winrate, kda, hs, adr, avs, lfg) {
+function setElements(player, rank, lfg, kda, hs, adr, avs) {
     playerid = 'player' + player + 'rank'
     switch (rank) {
         case 0:
@@ -89,11 +89,31 @@ function setElements(player, rank, winrate, kda, hs, adr, avs, lfg) {
     
     for (game = 0; game < 5; game++) {
         gameid = 'player' + player + 'game' + (game + 1) 
-        if (winrate[game] == 0) {
+        if (lfg[game] == 0) {
             document.getElementById(gameid).src = "resources/win.png";
         } else {
             document.getElementById(gameid).src = "resources/loss.png";
         }
     }
 
+    winrate = 0
+    winrateid = 'player' + player + 'wr'
+    for (game = 0; game < 5; game++) {
+      if(lfg[game] == 0) {
+        winrate += 20
+      }
+    }
+    document.getElementById(winrateid).innerHTML = winrate + '% Win Rate';
+    
+    kdaid = 'player' + player + 'kda'
+    document.getElementById(kdaid).innerHTML = (kda / 100).toFixed(2) + ' KDA';
+
+    hsid = 'player' + player + 'hs'
+    document.getElementById(hsid).innerHTML = (hs / 10) + '% HS'
+
+    hadr = 'player' + player + 'adr'
+    document.getElementById(hadr).innerHTML = (adr) + ' ADR'
+
+    havs = 'player' + player + 'avs'
+    document.getElementById(havs).innerHTML = (avs) + ' Avg. Score'
 }
