@@ -1,4 +1,4 @@
-const {app, BrowserWindow} = require('electron');
+const {app, BrowserWindow, screen} = require('electron');
 // const { API, Regions, Locales, Queue } = require("node-valorant-api");
 
 // const APIKey = "~~~~~-~~~~~~~~-~~~~-~~~~-~~~~-~~~~~~~~~~~~";
@@ -6,8 +6,19 @@ const {app, BrowserWindow} = require('electron');
 
 let mainWindow;
 
+
 function createAgentSelectionOverlay () {
-  mainWindow = new BrowserWindow({width: 920, height: 300,  frame:false, transparent:true, backgroundColor: '#00FFFFFF'});
+  let factor = screen.getPrimaryDisplay().scaleFactor;
+  mainWindow = new BrowserWindow({
+    width: 920 / factor, 
+    height: 300 / factor,
+    webPreferences: {
+      zoomFactor: 1.0 / factor
+    },
+    frame:false, 
+    transparent:true, 
+    backgroundColor: '#00FFFFFF'
+  });
   mainWindow.loadFile('overlays\\agentselection\\agentSelectionOverlay.html');
   mainWindow.setMenu(null)
   mainWindow.setMinimizable(false)
