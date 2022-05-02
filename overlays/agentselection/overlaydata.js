@@ -13,6 +13,9 @@ function randomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
+
+// TD: rename src images to 1-22 to remove unnecessary switch
+
 function setElements(player, rank, lfg, kda, hs, adr, avs) {
     playerid = 'player' + player + 'rank'
     switch (rank) {
@@ -86,6 +89,8 @@ function setElements(player, rank, lfg, kda, hs, adr, avs) {
           document.getElementById(playerid).src = "resources/radiant.png";
           break;
     } 
+    temptest = "resources/unranked.png"    
+    document.getElementById('player1rank').src = temptest;
     
     for (game = 0; game < 5; game++) {
         gameid = 'player' + player + 'game' + (game + 1) 
