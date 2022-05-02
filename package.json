@@ -14,7 +14,7 @@
     "tutorial",
     "transparency"
   ],
-  "author": "Doom",
+  "author": "Chris",
   "license": "GPLv3",
   "devDependencies": {
     "electron": "^18.2.0"
