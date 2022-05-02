@@ -1,7 +1,7 @@
 {
   "name": "Valoverlay",
-  "version": "0.0.3",
-  "description": "A minimal Electron example of transparency",
+  "version": "0.0.1",
+  "description": "Valorant Overlay and Tracker",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -11,7 +11,6 @@
   "keywords": [
     "Electron",
     "transparent",
-    "tutorial",
     "transparency"
   ],
   "author": "Chris",
