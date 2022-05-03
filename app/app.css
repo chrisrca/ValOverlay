@@ -1,0 +1,454 @@
+/* player 1 */
+
+.player1border {
+    Padding: 304px 0px 0px 160px;
+    position: absolute
+}
+
+.player1rank {
+    Padding: 310px 0px 0px 167px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+.player1wr {
+    Padding: 300px 0px 0px 215px;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.player1kda {
+    Padding: 302px 0px 0px 326px;
+    position: absolute;
+    color:rgb(184, 151, 113);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.player1hs {
+    Padding: 302px 0px 0px 401px;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.player1adr {
+    Padding: 326px 0px 0px 326px;
+    position: absolute;
+    color:rgb(118, 139, 151);
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.player1avs {
+    Padding: 326px 0px 0px 401px;
+    position: absolute;
+    color:rgb(118, 139, 151);
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;}
+
+.player1game1 {
+    Padding: 335px 0px 0px 214px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.player1game2 {
+    Padding: 335px 0px 0px 231px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.player1game3 {
+    Padding: 335px 0px 0px 248px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.player1game4 {
+    Padding: 335px 0px 0px 265px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.player1game5 {
+    Padding: 335px 0px 0px 282px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+/* player 2 */
+
+.player2border {
+    Padding: 412px 0px 0px 160px;
+    position: absolute
+}
+
+.player2rank {
+    Padding: 418px 0px 0px 167px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+.player2wr {
+    Padding: 408px 0px 0px 215px;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.player2kda {
+    Padding: 410px 0px 0px 326px;
+    position: absolute;
+    color:rgb(184, 151, 113);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.player2hs {
+    Padding: 410px 0px 0px 401px;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.player2adr {
+    Padding: 434px 0px 0px 326px;
+    position: absolute;
+    color:rgb(118, 139, 151);
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.player2avs {
+    Padding: 434px 0px 0px 401px;
+    position: absolute;
+    color:rgb(118, 139, 151);
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;}
+
+.player2game1 {
+    Padding: 443px 0px 0px 214px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.player2game2 {
+    Padding: 443px 0px 0px 231px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.player2game3 {
+    Padding: 443px 0px 0px 248px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.player2game4 {
+    Padding: 443px 0px 0px 265px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.player2game5 {
+    Padding: 443px 0px 0px 282px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+/* player 3 */
+
+.player3border {
+    Padding: 520px 0px 0px 160px;
+    position: absolute
+}
+
+.player3rank {
+    Padding: 526px 0px 0px 167px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+.player3wr {
+    Padding: 516px 0px 0px 215px;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.player3kda {
+    Padding: 518px 0px 0px 326px;
+    position: absolute;
+    color:rgb(184, 151, 113);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.player3hs {
+    Padding: 518px 0px 0px 401px;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.player3adr {
+    Padding: 542px 0px 0px 326px;
+    position: absolute;
+    color:rgb(118, 139, 151);
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.player3avs {
+    Padding: 542px 0px 0px 401px;
+    position: absolute;
+    color:rgb(118, 139, 151);
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;}
+
+.player3game1 {
+    Padding: 551px 0px 0px 214px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.player3game2 {
+    Padding: 551px 0px 0px 231px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.player3game3 {
+    Padding: 551px 0px 0px 248px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.player3game4 {
+    Padding: 551px 0px 0px 265px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.player3game5 {
+    Padding: 551px 0px 0px 282px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+/* player 4 */
+
+.player4border {
+    Padding: 628px 0px 0px 160px;
+    position: absolute
+}
+
+.player4rank {
+    Padding: 634px 0px 0px 167px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+.player4wr {
+    Padding: 624px 0px 0px 215px;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.player4kda {
+    Padding: 626px 0px 0px 326px;
+    position: absolute;
+    color:rgb(184, 151, 113);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.player4hs {
+    Padding: 626px 0px 0px 401px;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.player4adr {
+    Padding: 650px 0px 0px 326px;
+    position: absolute;
+    color:rgb(118, 139, 151);
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.player4avs {
+    Padding: 650px 0px 0px 401px;
+    position: absolute;
+    color:rgb(118, 139, 151);
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;}
+
+.player4game1 {
+    Padding: 659px 0px 0px 214px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.player4game2 {
+    Padding: 659px 0px 0px 231px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.player4game3 {
+    Padding: 659px 0px 0px 248px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.player4game4 {
+    Padding: 659px 0px 0px 265px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.player4game5 {
+    Padding: 659px 0px 0px 282px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+/* player 5 */
+
+.player5border {
+    Padding: 736px 0px 0px 160px;
+    position: absolute
+}
+
+.player5rank {
+    Padding: 742px 0px 0px 167px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+.player5wr {
+    Padding: 732px 0px 0px 215px;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.player5kda {
+    Padding: 734px 0px 0px 326px;
+    position: absolute;
+    color:rgb(184, 151, 113);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.player5hs {
+    Padding: 734px 0px 0px 401px;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.player5adr {
+    Padding: 758px 0px 0px 326px;
+    position: absolute;
+    color:rgb(118, 139, 151);
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.player5avs {
+    Padding: 758px 0px 0px 401px;
+    position: absolute;
+    color:rgb(118, 139, 151);
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;}
+
+.player5game1 {
+    Padding: 767px 0px 0px 214px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.player5game2 {
+    Padding: 767px 0px 0px 231px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.player5game3 {
+    Padding: 767px 0px 0px 248px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.player5game4 {
+    Padding: 767px 0px 0px 265px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.player5game5 {
+    Padding: 767px 0px 0px 282px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
