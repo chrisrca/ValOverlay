@@ -45,8 +45,8 @@ function createAgentSelectionOverlay () {
 function loadApp() {
   let factor = screen.getPrimaryDisplay().scaleFactor;
   appWindow = new BrowserWindow({
-    width: 808 / factor, 
-    height: 457 / factor,
+    width: 835, 
+    height: 500,
     webPreferences: {
       zoomFactor: 1.0 / factor
     },
