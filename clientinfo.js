@@ -1,12 +1,30 @@
 let lockFilePath = '%LOCALAPPDATA%\\Riot Games\\Riot Client\\Config\\lockfile'
 
-fetch(`https://127.0.0.1:${lockFilePort}/entitlements/v1/token`, { 
-    credentials: `riot:{${lockFilePassword}}`
-}) 
-    .then(response => response.json())
-    .then(data => { 
-        console.log('Success:', data);
-});
+lockfile = ObtainLockfileData()
+
+while ((typeof lockfile === 'undefined')) {
+    lockfile = (await ObtainLockfileData());
+}
+    Client = String(lockFile[0])
+    Pid = String(lockFile[1])
+    Port = String(lockFile[2])
+    Password = String(lockFile[3])
+    Protocol = String(lockFile[4])
+
+let userInfo = fetchFromLocalAPI(Port, Password)
+
+
+function fetchFromLocalAPI(lockFilePort, lockFilePassword) {
+    let localApiReturn
+    fetch(`https://127.0.0.1:${lockFilePort}/entitlements/v1/token`, { 
+    credentials: `riot:{${lockFilePassword}}`}) 
+    .then(response => { localAPIReturn = `${response.userInfo}`});
+    while ((typeof localApiReturn === 'undefined')) {
+        localApiReturn = (await fetch());
+    }
+    return localAPIReturn
+}
+
 
 function ObtainLockfileData(LockfilePath)
 {
@@ -20,20 +38,13 @@ function ObtainLockfileData(LockfilePath)
         console.log("Lockfile not found");
         return new LockfileData();
     }
+
+    return lockfileRaw.split(':')
 }
+
+
 /*
-    = LockfileRaw.Split(":");
-    return new LockfileData()
-    {
-        Client = (string)LockfileData[0],
-        PID = Int32.Parse((string)LockfileData[1]),
-        Port = Int32.Parse((string)LockfileData[2]),
-        Key = (string)LockfileData[3],
-        Protocol = (string)LockfileData[4],
-        Basic = Convert.ToBase64String(Encoding.UTF8.GetBytes($"riot:{(string)LockfileData[3]}")),
-        Success = true
-    };
-}
+
 
 private async Task<AuthTokens> ObtainAuthTokens()
 {
