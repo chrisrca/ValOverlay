@@ -1,7 +1,57 @@
-// Send get request to local api
+let lockFilePath = '%LOCALAPPDATA%\\Riot Games\\Riot Client\\Config\\lockfile'
 
-// Use lockFile
-// C# version - string LockfilePath = Environment.GetEnvironmentVariable("LocalAppData") + "\\Riot Games\\Riot Client\\Config\\lockfile";
+fetch(`https://127.0.0.1:${lockFilePort}/entitlements/v1/token`, { 
+    credentials: `riot:{${lockFilePassword}}`
+}) 
+    .then(response => response.json())
+    .then(data => { 
+        console.log('Success:', data);
+});
+
+function ObtainLockfileData(LockfilePath)
+{
+    let LockfileRaw = '';
+    try
+    {
+        console.log("Trying to open Lockfile");
+    }
+    catch (FileNotFoundException)
+    {
+        console.log("Lockfile not found");
+        return new LockfileData();
+    }
+}
+/*
+    = LockfileRaw.Split(":");
+    return new LockfileData()
+    {
+        Client = (string)LockfileData[0],
+        PID = Int32.Parse((string)LockfileData[1]),
+        Port = Int32.Parse((string)LockfileData[2]),
+        Key = (string)LockfileData[3],
+        Protocol = (string)LockfileData[4],
+        Basic = Convert.ToBase64String(Encoding.UTF8.GetBytes($"riot:{(string)LockfileData[3]}")),
+        Success = true
+    };
+}
+
+private async Task<AuthTokens> ObtainAuthTokens()
+{
+    Utilities.Utils.Log("Creating Auth Request");
+    RestRequest request = new RestRequest($"https://127.0.0.1:{LocalCredentials.Port}/entitlements/v1/token", Method.Get);
+    request.AddHeader("Authorization", $"Basic {LocalCredentials.Basic}");
+
+    RestResponse response = await client.ExecuteAsync(request);
+    if (!response.IsSuccessful) return new AuthTokens();
+
+    AuthTokens tokens = JsonConvert.DeserializeObject<AuthTokens>(response.Content.ToString());
+    tokens.Success = true;
+    return tokens;
+} */
+
+
+
+// Send get request to local api
 
 // file contains something like this Riot Client:8136:56833:gUbZrOn-BJf1-jskHxv8lg:https
 //                                   name        pid  port  password               protocol
