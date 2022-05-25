@@ -1,0 +1,22 @@
+Projects:
+    Backend:
+        ☐ Create main thread for app and worker threads for updating while its running @high 
+        ☐ Find out how to take screenshot of just valorant for round end check (or use python or api if possible)
+        ✔ Parse lockfile data @done 
+        ✔ Allow app to fetch from rso endpoint @done 
+        ✔ Check to see if Valorant is open @done 
+        ☐ Add menu buttons (minimize and close) and implement dragability 
+        ☐ Parse crosshair data and keybinds from usersettings
+        ☐ Add panel buttons (Profile (Show Name), Stats, Leaderboards, Guides, Agents, Maps, Overlays, Crosshairs, Fun, etc)
+        ☐ Scroll wheel?
+
+    Design:
+        ☐ Make lots of animations and buttons
+        ☐ Copy Valorant Gui/Menus and animate more fluid open/closing animations
+        ☐ Clean up logo and add to bottom left corner
+        ☐ Menu Icons
+
+
+Disclaimer:
+    ADD THIS SOMEWHERE IN APP:
+        ☐ Valoverlay isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
