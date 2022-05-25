@@ -27,21 +27,6 @@ function createAgentSelectionOverlay () {
   });
 }
 
-// APP TO DO             !!!Copy Valorant Gui/Menus and add open/closing animations to make app look sick!!!
-/* 
-  1. Add menu buttons (minimize and close)
-  2. Add panel buttons (Profile (Show Name), Stats, Leaderboards, Guides, Agents, Maps, Overlays, Fun, etc)
-  3. Make and add logo to bottom left corner
-  4. Add scroll wheel
-  5. Menu Icons
-  6. etc
-*/
-
-/// ADD THIS SOMEWHERE IN APP:
-// Valoverlay isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
-
-
-
 function loadApp() {
   let factor = screen.getPrimaryDisplay().scaleFactor;
   appWindow = new BrowserWindow({
