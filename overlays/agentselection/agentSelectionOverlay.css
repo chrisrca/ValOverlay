@@ -6,14 +6,14 @@
 }
 
 .player1rank {
-    Padding: 310px 0px 0px 167px;
+    Padding: 308px 0px 0px 167px;
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 34px;
+    height: 34px;
 }
 
 .player1wr {
-    Padding: 300px 0px 0px 215px;
+    Padding: 294px 0px 0px 215px;
     position: absolute;
     color:rgb(255, 255, 255);
     font-size: 14px;
@@ -22,7 +22,7 @@
 }
 
 .player1kda {
-    Padding: 302px 0px 0px 326px;
+    Padding: 296px 0px 0px 326px;
     position: absolute;
     color:rgb(184, 151, 113);
     font-size: 13px;
@@ -31,7 +31,7 @@
 }
 
 .player1hs {
-    Padding: 302px 0px 0px 401px;
+    Padding: 296px 0px 0px 401px;
     position: absolute;
     color:rgb(255, 255, 255);
     font-size: 13px;
@@ -40,7 +40,7 @@
 }
 
 .player1adr {
-    Padding: 326px 0px 0px 326px;
+    Padding: 317px 0px 0px 326px;
     position: absolute;
     color:rgb(118, 139, 151);
     font-size: 11px;
@@ -48,42 +48,42 @@
 }
 
 .player1avs {
-    Padding: 326px 0px 0px 401px;
+    Padding: 317px 0px 0px 401px;
     position: absolute;
     color:rgb(118, 139, 151);
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;}
 
 .player1game1 {
-    Padding: 335px 0px 0px 214px;
+    Padding: 326px 0px 0px 214px;
     position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .player1game2 {
-    Padding: 335px 0px 0px 231px;
+    Padding: 326px 0px 0px 231px;
     position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .player1game3 {
-    Padding: 335px 0px 0px 248px;
+    Padding: 326px 0px 0px 248px;
     position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .player1game4 {
-    Padding: 335px 0px 0px 265px;
+    Padding: 326px 0px 0px 265px;
     position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .player1game5 {
-    Padding: 335px 0px 0px 282px;
+    Padding: 326px 0px 0px 282px;
     position: absolute;
     width: 15px;
     height: 15px;
@@ -97,14 +97,14 @@
 }
 
 .player2rank {
-    Padding: 418px 0px 0px 167px;
+    Padding: 416px 0px 0px 167px;
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 34px;
+    height: 34px;
 }
 
 .player2wr {
-    Padding: 408px 0px 0px 215px;
+    Padding: 402px 0px 0px 215px;
     position: absolute;
     color:rgb(255, 255, 255);
     font-size: 14px;
@@ -113,7 +113,7 @@
 }
 
 .player2kda {
-    Padding: 410px 0px 0px 326px;
+    Padding: 404px 0px 0px 326px;
     position: absolute;
     color:rgb(184, 151, 113);
     font-size: 13px;
@@ -122,7 +122,7 @@
 }
 
 .player2hs {
-    Padding: 410px 0px 0px 401px;
+    Padding: 404px 0px 0px 401px;
     position: absolute;
     color:rgb(255, 255, 255);
     font-size: 13px;
@@ -131,7 +131,7 @@
 }
 
 .player2adr {
-    Padding: 434px 0px 0px 326px;
+    Padding: 425px 0px 0px 326px;
     position: absolute;
     color:rgb(118, 139, 151);
     font-size: 11px;
@@ -139,42 +139,42 @@
 }
 
 .player2avs {
-    Padding: 434px 0px 0px 401px;
+    Padding: 425px 0px 0px 401px;
     position: absolute;
     color:rgb(118, 139, 151);
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;}
 
 .player2game1 {
-    Padding: 443px 0px 0px 214px;
+    Padding: 434px 0px 0px 214px;
     position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .player2game2 {
-    Padding: 443px 0px 0px 231px;
+    Padding: 434px 0px 0px 231px;
     position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .player2game3 {
-    Padding: 443px 0px 0px 248px;
+    Padding: 434px 0px 0px 248px;
     position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .player2game4 {
-    Padding: 443px 0px 0px 265px;
+    Padding: 434px 0px 0px 265px;
     position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .player2game5 {
-    Padding: 443px 0px 0px 282px;
+    Padding: 434px 0px 0px 282px;
     position: absolute;
     width: 15px;
     height: 15px;
@@ -188,14 +188,14 @@
 }
 
 .player3rank {
-    Padding: 526px 0px 0px 167px;
+    Padding: 524px 0px 0px 167px;
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 34px;
+    height: 34px;
 }
 
 .player3wr {
-    Padding: 516px 0px 0px 215px;
+    Padding: 510px 0px 0px 215px;
     position: absolute;
     color:rgb(255, 255, 255);
     font-size: 14px;
@@ -204,7 +204,7 @@
 }
 
 .player3kda {
-    Padding: 518px 0px 0px 326px;
+    Padding: 512px 0px 0px 326px;
     position: absolute;
     color:rgb(184, 151, 113);
     font-size: 13px;
@@ -213,7 +213,7 @@
 }
 
 .player3hs {
-    Padding: 518px 0px 0px 401px;
+    Padding: 512px 0px 0px 401px;
     position: absolute;
     color:rgb(255, 255, 255);
     font-size: 13px;
@@ -222,7 +222,7 @@
 }
 
 .player3adr {
-    Padding: 542px 0px 0px 326px;
+    Padding: 533px 0px 0px 326px;
     position: absolute;
     color:rgb(118, 139, 151);
     font-size: 11px;
@@ -230,42 +230,42 @@
 }
 
 .player3avs {
-    Padding: 542px 0px 0px 401px;
+    Padding: 533px 0px 0px 401px;
     position: absolute;
     color:rgb(118, 139, 151);
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;}
 
 .player3game1 {
-    Padding: 551px 0px 0px 214px;
+    Padding: 542px 0px 0px 214px;
     position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .player3game2 {
-    Padding: 551px 0px 0px 231px;
+    Padding: 542px 0px 0px 231px;
     position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .player3game3 {
-    Padding: 551px 0px 0px 248px;
+    Padding: 542px 0px 0px 248px;
     position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .player3game4 {
-    Padding: 551px 0px 0px 265px;
+    Padding: 542px 0px 0px 265px;
     position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .player3game5 {
-    Padding: 551px 0px 0px 282px;
+    Padding: 542px 0px 0px 282px;
     position: absolute;
     width: 15px;
     height: 15px;
@@ -279,14 +279,14 @@
 }
 
 .player4rank {
-    Padding: 634px 0px 0px 167px;
+    Padding: 632px 0px 0px 167px;
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 34px;
+    height: 34px;
 }
 
 .player4wr {
-    Padding: 624px 0px 0px 215px;
+    Padding: 618px 0px 0px 215px;
     position: absolute;
     color:rgb(255, 255, 255);
     font-size: 14px;
@@ -295,7 +295,7 @@
 }
 
 .player4kda {
-    Padding: 626px 0px 0px 326px;
+    Padding: 620px 0px 0px 326px;
     position: absolute;
     color:rgb(184, 151, 113);
     font-size: 13px;
@@ -304,7 +304,7 @@
 }
 
 .player4hs {
-    Padding: 626px 0px 0px 401px;
+    Padding: 620px 0px 0px 401px;
     position: absolute;
     color:rgb(255, 255, 255);
     font-size: 13px;
@@ -313,7 +313,7 @@
 }
 
 .player4adr {
-    Padding: 650px 0px 0px 326px;
+    Padding: 642px 0px 0px 326px;
     position: absolute;
     color:rgb(118, 139, 151);
     font-size: 11px;
@@ -321,42 +321,42 @@
 }
 
 .player4avs {
-    Padding: 650px 0px 0px 401px;
+    Padding: 642px 0px 0px 401px;
     position: absolute;
     color:rgb(118, 139, 151);
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;}
 
 .player4game1 {
-    Padding: 659px 0px 0px 214px;
+    Padding: 650px 0px 0px 214px;
     position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .player4game2 {
-    Padding: 659px 0px 0px 231px;
+    Padding: 650px 0px 0px 231px;
     position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .player4game3 {
-    Padding: 659px 0px 0px 248px;
+    Padding: 650px 0px 0px 248px;
     position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .player4game4 {
-    Padding: 659px 0px 0px 265px;
+    Padding: 650px 0px 0px 265px;
     position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .player4game5 {
-    Padding: 659px 0px 0px 282px;
+    Padding: 650px 0px 0px 282px;
     position: absolute;
     width: 15px;
     height: 15px;
@@ -370,14 +370,14 @@
 }
 
 .player5rank {
-    Padding: 742px 0px 0px 167px;
+    Padding: 740px 0px 0px 167px;
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 34px;
+    height: 34px;
 }
 
 .player5wr {
-    Padding: 732px 0px 0px 215px;
+    Padding: 726px 0px 0px 215px;
     position: absolute;
     color:rgb(255, 255, 255);
     font-size: 14px;
@@ -386,7 +386,7 @@
 }
 
 .player5kda {
-    Padding: 734px 0px 0px 326px;
+    Padding: 728px 0px 0px 326px;
     position: absolute;
     color:rgb(184, 151, 113);
     font-size: 13px;
@@ -395,7 +395,7 @@
 }
 
 .player5hs {
-    Padding: 734px 0px 0px 401px;
+    Padding: 728px 0px 0px 401px;
     position: absolute;
     color:rgb(255, 255, 255);
     font-size: 13px;
@@ -404,7 +404,7 @@
 }
 
 .player5adr {
-    Padding: 758px 0px 0px 326px;
+    Padding: 749px 0px 0px 326px;
     position: absolute;
     color:rgb(118, 139, 151);
     font-size: 11px;
@@ -412,42 +412,42 @@
 }
 
 .player5avs {
-    Padding: 758px 0px 0px 401px;
+    Padding: 749px 0px 0px 401px;
     position: absolute;
     color:rgb(118, 139, 151);
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;}
 
 .player5game1 {
-    Padding: 767px 0px 0px 214px;
+    Padding: 758px 0px 0px 214px;
     position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .player5game2 {
-    Padding: 767px 0px 0px 231px;
+    Padding: 758px 0px 0px 231px;
     position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .player5game3 {
-    Padding: 767px 0px 0px 248px;
+    Padding: 758px 0px 0px 248px;
     position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .player5game4 {
-    Padding: 767px 0px 0px 265px;
+    Padding: 758px 0px 0px 265px;
     position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .player5game5 {
-    Padding: 767px 0px 0px 282px;
+    Padding: 758px 0px 0px 282px;
     position: absolute;
     width: 15px;
     height: 15px;
