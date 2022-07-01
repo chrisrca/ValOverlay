@@ -4,6 +4,8 @@ let appWindow;
 let overlayWindow;
 const trayIconPath = 'app\\resources\\icon.png'
 
+
+
 function createAgentSelectionOverlay () {
   let factor = screen.getPrimaryDisplay().scaleFactor;
   overlayWindow = new BrowserWindow({
