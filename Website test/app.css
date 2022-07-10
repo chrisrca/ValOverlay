@@ -1,0 +1,20 @@
+.background {
+    width: 808;
+    height: 457;
+    animation: background-animate 2.5s ease-in-out 1;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-drag: none;
+}
+
+@keyframes background-animate {
+    0% {
+        transform: scaleY(0.01);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
